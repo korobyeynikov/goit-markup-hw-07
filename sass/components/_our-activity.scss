@@ -1,7 +1,7 @@
 .box {
   padding-top: 0;
 }
-.section-box {
+.box__title {
   margin-bottom: 50px;
 
   font-weight: 700;
@@ -12,15 +12,15 @@
 
   color: var(--brand-color);
 }
-.list-box {
+.box__list {
   display: flex;
 
   gap: 30px;
 }
-.item-box {
+.box__item {
   position: relative;
 }
-.lead-item {
+.box__wrapper {
   position: absolute;
   width: 100%;
   bottom: 0;
@@ -28,7 +28,7 @@
   padding-bottom: 27px;
   background-color: var(--bgn-box);
 }
-.position-text {
+.box__text {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.71;

@@ -1,12 +1,12 @@
-.title-list {
+.features {
   display: flex;
   flex-wrap: nowrap;
   gap: 30px;
 }
-.list-section {
+.features__section {
   flex-basis: calc((100% - 90px) / 4);
 }
-.title-icon {
+.features__icon {
   margin-bottom: 30px;
   display: flex;
   align-items: center;
@@ -18,7 +18,7 @@
   border-radius: 4px;
 }
 
-.subtitle {
+.features__subtitle {
   margin-bottom: 10px;
 
   font-weight: 700;
@@ -29,7 +29,7 @@
 
   color: var(--brand-color);
 }
-.lead-subtitle {
+.features__text {
   font-size: 14px;
   line-height: 1.71;
 
