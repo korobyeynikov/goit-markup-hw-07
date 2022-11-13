@@ -1,8 +1,8 @@
 .form__list {
   margin-bottom: 20px;
-  &:not(:last-child) {
-    margin-bottom: 10px;
-  }
+}
+.form__item:not(:last-child) {
+  margin-bottom: 10px;
 }
 
 .form__label {

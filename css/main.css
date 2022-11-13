@@ -693,7 +693,8 @@ body {
 .form__list {
   margin-bottom: 20px;
 }
-.form__list:not(:last-child) {
+
+.form__item:not(:last-child) {
   margin-bottom: 10px;
 }
 
